@@ -1,0 +1,25 @@
+Problem Solving (CSE):
+https://github.com/razzaksr/PST-Intern-CSE-2025
+
+Structures:
+	array, list, set, map, graph, tree
+Algorithms:
+	sliding window, greedy, divide and conquer, dynamic programming
+
+System Design - Low Level Design:
+
+Complexity: time , space >> O()
+Problems/ Use case:
+
+Data			>> 
+Operations	>> 
+
+
+Day 1:
+1. Consider the group of deposits done by bank today with numbers and manager wants to find out the least deposit. so assist the manager by providing solution to identify the least deposit.
+
+2. In the given list contains the 10 tax payers of financial year 2024-2025, among the auditor wants to find the first and second highest tax payer. so find the solution to support the auditor.
+
+
+
+

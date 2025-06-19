@@ -20,6 +20,39 @@ Day 1:
 
 2. In the given list contains the 10 tax payers of financial year 2024-2025, among the auditor wants to find the first and second highest tax payer. so find the solution to support the auditor.
 
+Day 2:
+1. In the super market end of each day finding the raised bills to customer with invoice number, now find the missing invoice of the day.
+Example:
+Input:
+8,10,3,1,4,2,5
+Output:
+6
+Input:
+45,91,90,92,46
+Output:
+47
+Input:
+0,1,2,4,5,6,7
+Output:
+3
 
 
+2. IPL Bowlers stats of every over how many runs he has given to opposite team, now find the maiden overs at the last of his stats.
 
+example:
+Input:
+20,0,19,5,0,3,10,0,2
+Output:
+20,19,5,3,10,2,0,0,0
+
+Input:
+3,0,0,1,0,5,0,6,0
+Output:
+3,1,5,6,0,0,0,0,0
+
+3. Assume that your are part of support team in IRCTC app where customers would raise issue and it will be considered priority ticket such as 0, 1 and 2. now today tickets are in the bucket and you need to arrange it by priority
+Example:
+Input:
+2,0,0,1,0,2,0,1
+Output:
+0,0,0,0,1,1,2,2

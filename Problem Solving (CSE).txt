@@ -56,3 +56,47 @@ Input:
 2,0,0,1,0,2,0,1
 Output:
 0,0,0,0,1,1,2,2
+
+Day 3:
+1. Find and apply charges of 20 each extra debit more than 3 in last 10 transaction of your account which has credit and debit combination
+
+Example:
+Input:
+900,1200,5600,120,450,670,100,10000,400,120
+Output:
+900,1200,5600,120,450,670,100,10000,400,100
+
+2. Given an array nums of positive integers of size N. Find all distinct digits present in nums.
+Example 1:
+Input: nums = [131, 11, 48]
+Output: 1 3 4 8
+Explanation: 1, 3, 4, and 8 are only distinct
+digits that can be extracted from the numbers
+of the array.
+Example 2:
+Input: nums = [111, 222, 333, 4444, 666]
+Output: 1 2 3 4 6
+Explanation: 1, 2, 3, 4, and 6 are only distinct
+digits that can be extracted from the numbers
+of the array.
+
+3. Equilibrium index:
+Example:
+Input:
+-7, 1, 5, 2, -4, 3, 0
+Output:
+3
+Input:
+0,-3,5,-4,-2,3,1,0
+Output:
+0
+
+4. Rotating clock wise and anti clock wise
+
+example:
+[111, 222, 333, 4444, 666]
+2
+clock:
+[4444, 666, 111, 222, 333]
+anticlock:
+[333, 4444, 666, 111, 222]

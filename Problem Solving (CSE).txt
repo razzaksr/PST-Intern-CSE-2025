@@ -100,3 +100,36 @@ clock:
 [4444, 666, 111, 222, 333]
 anticlock:
 [333, 4444, 666, 111, 222]
+
+
+Day 4:
+1. Given an array arr[] of positive integers. Your task is to sort them so that the first part of the array contains odd numbers sorted in descending order, and the rest of the portion contains even numbers sorted in ascending order.
+Examples:
+Input: arr[] = [1, 2, 3, 5, 4, 7, 10]
+Output: [7, 5, 3, 1, 2, 4, 10]
+Explanation: 7 5 3 1 are odds in descending order and 2 4 10 are evens in ascending order.
+Input: arr[] = [0, 4, 5, 3, 7, 2, 1]
+Output: [7, 5, 3, 1, 0, 2, 4]
+Explanation: 7 5 3 1 are odds in descending order and 0 2 4 are evens in ascending order.
+
+2. Assume that grocery shop generating bills with different amount, now the shopkeeper wants to cumulate the bills. so help him to find total revenue by using recursion
+Example:
+Input:
+[900,20,450,210,60]
+Output:
+1640
+
+3. Find Max in array using recursion
+Example:
+Input: 0, 4, 5, 3, 7, 2, 1
+Output: 7
+
+4. Find Factorial using recursion
+Example:
+Input: 5 
+Output: 120
+
+5. Find Occurrence of number in array using recursion
+Example: 
+Input: 0, 1, 5, 0, 7, 2, 1
+Output: 1 >> 2 times, 0 >> 2 times

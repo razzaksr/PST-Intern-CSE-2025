@@ -345,3 +345,49 @@ arr>> size = 6>> 0 to 5(always answer)
 
 2. factorial via DP
 3. coin change via DP
+
+
+day 9:
+1. Imagine you are a software engineer working on a document editing application. The application allows users to edit and correct typos in their documents. One of the features you are developing is a tool to calculate the minimum number of operations required to transform one word into another. This feature is crucial for suggesting the most efficient edits and corrections to the users.
+Task: Given two words, implement a function that calculates the minimum number of operations required to convert the first word into the second word. The allowed operations are:
+Insert a character
+Delete a character
+Replace a character
+
+Input:
+Two strings word1 and word2 representing the original word and the target word, respectively.
+Output:
+An integer representing the minimum number of operations required to convert word1 into word2.
+
+Example:
+Input: word1 = "horse", word2 = "rose"
+Output: 2
+Explanation:
+To transform "horse" into "rose", the following 2 operations are required:
+  1. Replace 'h' with 'r' -> "rorse"
+  2. Delete 'r' -> "rose"
+
+horse
+ros
+h>> remove
+o>> r
+r>> o
+e>> remove
+
+h>> r
+r>> remove
+e>> remove
+
+2. selection sort
+3. quick sort
+4. Given an array of stock prices where each element represents the stock price on a specific day, write a function to find the best days to buy and sell the stock such that you achieve the maximum profit. You can only buy and sell the stock once.
+45, 12, 3, 10, 50
+Best time to buy 3 best time to sell 50
+
+-10, -5, -2, -1, 1
+Best time to buy -10 best time to sell 1
+
+90, 40, 20, 10, 4
+Best time to buy 10 best time to sell 4
+
+

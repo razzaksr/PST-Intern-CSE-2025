@@ -390,4 +390,65 @@ Best time to buy -10 best time to sell 1
 90, 40, 20, 10, 4
 Best time to buy 10 best time to sell 4
 
+day 10:
+1. Consider you are going to inquire about top kth package from placement history of past year companies offered. NOTE: using quick select
+Example:
+Input:[14, 23, 7, 15, 20]
+k = 2
+Output:20
+k = 1
+Output: 23
+k = 5
+Output: 7
 
+2. Consider that you are building console interface of customer's loan application where customer used to provide name, pan, aadhaar, email then they will set the password for their account. your role is to validate those information's using regex.
+Example:
+Input:
+Name: "Raz",
+Password: "razak$123",
+Aadhaar: "765456787912",
+PAN: "ABCDE1234F",
+Email: "example@mail.com"
+
+Output:
+Account created
+
+Example:
+Input:
+Name: "Ra",
+Password: "razak$123",
+Aadhaar: "7654567",
+PAN: "ABCDE1234F",
+Email: "example@mail.com"
+
+Output:
+Invalid name,invalid aadhaar
+
+Example:
+Input:
+Name: "Raz",
+Password: "razak123",
+Aadhaar: "765456787912",
+PAN: "ABCDE1234F",
+Email: "example@mail.c"
+
+Output:
+Invalid password, invalid email
+
+3. Top K Frequent Elements
+Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+
+Input: nums = [1,1,1,2,2,3], k = 2
+Output: [1,2]
+
+Input: nums = [1], k = 1
+Output: [1]
+
+Input: nums = [4,4,4,6,6,6,6,3,3,3,3,3], k = 2
+Output: [3,6]
+
+Input: nums = [7,7,7,8,8,9,9,9,10,10,10,10], k = 3
+Output: [7,10,9]
+
+Input: nums = [5,5,6,7,7,7,8,8,8,8,9], k = 4
+Output: [8,7,5,9]

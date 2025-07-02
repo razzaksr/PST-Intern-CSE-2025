@@ -452,3 +452,67 @@ Output: [7,10,9]
 
 Input: nums = [5,5,6,7,7,7,8,8,8,8,9], k = 4
 Output: [8,7,5,9]
+
+day 11:
+1. Two Sum II - Input Array Is Sorted
+Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
+
+Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
+
+NOTE: index 1...N
+
+Your solution must use only constant extra space.
+Example 1:
+Input: numbers = [2,7,11,15], target = 9
+Output: [1,2]
+Explanation: The sum of 2 and 7 is 9. Therefore, index1 = 1, index2 = 2. 
+We return [1, 2].
+
+Example 2:
+Input: numbers = [2,3,4], target = 6
+Output: [1,3]
+Explanation: The sum of 2 and 4 is 6. Therefore index1 = 1, index2 = 3. 
+We return [1, 3].
+
+Example 3:
+Input: numbers = [-1,0], target = -1
+Output: [1,2]
+Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. 
+We return [1, 2].
+
+Sliding Window:
+fixed window size
+variable window size
+
+moving window:
+right side extends
+left side shrink
+
+2. Finding the maximum or minimum sum of a subarray of a fixed length.
+Input:
+arr = 1, 2, 3, 4, 5, 6, 7, 8, 9
+k = 3
+Output:
+24
+
+3.  Sliding Window Maximum
+Heart Rate Monitoring in Healthcare:
+A wearable health device monitors a user's heart rate during exercise. To provide health insights, the device must track the highest heart rate over every 1-minute interval.
+Problem Statement: Given an array heartRates[] and an integer k, find the maximum heart rate for each sliding window of size k.
+Input1:
+heartRates = [72, 80, 75, 90, 85, 92, 88]
+k = 3
+Output1:
+Maximum heart rates for each sliding window:
+[80, 90, 90, 92, 92]
+
+heartRates = [70, 85, 60, 95, 82, 74, 90]
+k = 2
+Maximum heart rates for each sliding window:
+[85, 85, 95, 95, 82, 90]
+Window [70, 85] → max = 85
+Window [85, 60] → max = 85
+Window [60, 95] → max = 95
+Window [95, 82] → max = 95
+Window [82, 74] → max = 82
+Window [74, 90] → max = 90

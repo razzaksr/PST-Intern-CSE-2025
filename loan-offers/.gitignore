@@ -1,0 +1,8 @@
+.vscode
+target/classes
+target/generated-sources
+target/gebnerated-test-sources
+target/maven-archiver
+target/maven-status
+target/surfire-reports
+target/test-classes
